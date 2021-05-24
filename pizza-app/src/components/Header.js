@@ -9,6 +9,7 @@ const Header = () => {
         fixed="top"
         collapseOnSelect
         expand="lg"
+        bg="dark"
         variant="dark"
       >
         <Navbar.Brand href="#home">Harry's Pizza and Subs</Navbar.Brand>
