@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.nv {
+  background-color: blue;
+}
+
+.home {
+  background: url(HarrysLogo.jpeg) no-repeat center center fixed;
+  background-position-y: 6vh;
+  background-size: cover;
+  background-color: #282c34;
+  height: 100vh;
+  width: 100%;
+}
+
+.mainTitle {
+  color: black;
+  padding-top: 10vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
