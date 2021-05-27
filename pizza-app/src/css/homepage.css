@@ -1,0 +1,17 @@
+/* img {
+    width: 100vh;
+    height: 80vh;
+} */
+
+.home {
+    font-family: cursive;
+}
+
+.titleCol {
+    font-size: em;
+}
+.logoCol {
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    color: white
+}

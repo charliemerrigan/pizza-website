@@ -1,0 +1,25 @@
+.container {
+    font-family: cursive;
+}
+
+.card {
+    border: none;
+    background-color: none;
+}
+
+.card-footer {
+    border: none;
+    background-color: none;
+}
+
+.pizzaGrid {
+    font-size: large;
+}
+
+.pizzaGridHeader {
+    font-weight: bold;
+}
+
+.specialtyPizza .card-footer{
+    font-size: small;
+}
