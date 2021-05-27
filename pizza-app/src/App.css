@@ -29,17 +29,23 @@
 }
 
 .nv {
-  background-color: blue;
+  background-color: #a30d3f;
+  font-family: cursive;
 }
 
-.home {
+.nv img {
+  width: 8vh;
+  height: 8vh;
+}
+
+/* .home {
   background: url(HarrysLogo.jpeg) no-repeat center center fixed;
   background-position-y: 6vh;
   background-size: cover;
   background-color: #282c34;
   height: 100vh;
   width: 100%;
-}
+} */
 
 .mainTitle {
   color: black;
