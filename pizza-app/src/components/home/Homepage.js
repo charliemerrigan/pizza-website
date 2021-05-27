@@ -1,6 +1,6 @@
-import pizzaPhoto from "../HarrysLogo.jpeg";
+import pizzaPhoto from "../../HarrysLogo.jpeg";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import '../css/homepage.css'
+import './homepage.css'
 
 const Homepage = () => {
   return (

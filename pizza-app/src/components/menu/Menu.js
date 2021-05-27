@@ -1,7 +1,7 @@
 import { Card, CardDeck, Col, Container, Image, Row } from 'react-bootstrap'
-import appImg from '../images/HarrysPizzaApp.png'
-import pizzaImg from '../images/HarrysPizzaPizza.jpeg'
-import '../css/menu.css'
+import appImg from '../../images/HarrysPizzaApp.png'
+import pizzaImg from '../../images/HarrysPizzaPizza.jpeg'
+import './menu.css'
 const Menu = () => {
     return (
         <div>
