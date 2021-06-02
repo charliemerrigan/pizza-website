@@ -1,8 +1,7 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
-import { ExternalLink } from "react-external-link";
+import { Image } from "react-bootstrap";
 import fLogo from "../images/facebookLogo.png";
 import igLogo from "../images/IGLogo.png";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "./footer.css";
 const Footer = () => {
   return (
