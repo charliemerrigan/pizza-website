@@ -1,11 +1,11 @@
 import pizzaPhoto from "../../HarrysLogo.jpeg";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Footer from "../Footer"
-import './homepage.css'
+import Footer from "../Footer";
+import "./homepage.css";
 
 const Homepage = () => {
   return (
-    <div className="home" >
+    <div className="home">
       <Container fluid style={{ marginTop: "10vh", height: "80vh" }}>
         <Row>
           <Col className="logoCol">
@@ -16,7 +16,10 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid style={{ marginTop: "10vh", height: "80vh", background: "black" }}>
+      <Container
+        fluid
+        style={{ marginTop: "10vh", height: "80vh", background: "black" }}
+      >
         <Row>
           <Col className="logoCol">
             <Row>Hours</Row>
@@ -32,7 +35,6 @@ const Homepage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer></Footer>
     </div>
   );
 };
