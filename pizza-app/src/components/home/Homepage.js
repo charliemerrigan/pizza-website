@@ -6,22 +6,19 @@ import "./homepage.css";
 const Homepage = () => {
   return (
     <div className="home">
-      <Container fluid style={{ marginTop: "10vh", height: "80vh" }}>
+      <Container>
         <Row>
-          <Col className="logoCol">
+          <Col>
             <Image src={pizzaPhoto}></Image>
           </Col>
-          <Col className="titleCol">
+          <Col>
             <h1 class="mainTitle">Harry's Pizza and Subs</h1>
           </Col>
         </Row>
       </Container>
-      <Container
-        fluid
-        style={{ marginTop: "10vh", height: "80vh", background: "black" }}
-      >
+      <Container className="altContainer">
         <Row>
-          <Col className="logoCol">
+          <Col>
             <Row>Hours</Row>
             <Row>MONDAY-THURSDAY 11:00 AM - 9:00 PM</Row>
             <Row>FRIDAY: 11:00 AM - 9:00 PM</Row>
@@ -29,9 +26,6 @@ const Homepage = () => {
             <Row>SUNDAY 12:00 PM - 9:00 PM</Row>
             <Row>DELIVERY AFTER 5:30PM- $10 MINIMUM</Row>
             <Row>$2 DELIVERY CHARGE</Row>
-          </Col>
-          <Col>
-            <h1 class="mainTitle">Harry's Pizza and Subs</h1>
           </Col>
         </Row>
       </Container>

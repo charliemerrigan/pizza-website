@@ -14,6 +14,7 @@
 
 .pizzaGrid {
     font-size: large;
+    padding-top: 0px;
 }
 
 .pizzaGridHeader {
@@ -22,4 +23,23 @@
 
 .specialtyPizza .card-footer{
     font-size: small;
+}
+
+.menuBackground {
+    background-color: burlywood;
+}
+
+.menuContainer {
+    margin-top: 10vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.menuContainer .card {
+    padding: 10px;
+}
+
+.wingsContainer .row {
+    padding-top : 10px;
 }

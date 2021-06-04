@@ -4,8 +4,8 @@ import pizzaImg from '../../images/HarrysPizzaPizza.jpeg'
 import './menu.css'
 const Menu = () => {
     return (
-        <div>
-            <Container style={{ marginTop: "10vh" }}>
+        <div className="menuBackground">
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Appetizers and Extras</h1>
@@ -166,7 +166,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container style={{ marginTop: "10vh" }}>
+            <Container className="menuContainer">
                 <Row className="justify-content-left">
                     <Col>
                         <h1>Regular Pizza</h1>
@@ -305,8 +305,10 @@ const Menu = () => {
                     </Col>
                 </Row>
 
-                <Container className="pizzaGrid">
+                <Container className="pizzaGrid, menuContainer">
                     <Row className="pizzaGridHeader">
+                        <Col>
+                        </Col>
                         <Col>
                             Pizza
                     </Col>
@@ -322,8 +324,12 @@ const Menu = () => {
                         <Col>
                             Extra Large
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                     <Row>
+                        <Col>
+                        </Col>
                         <Col>
                             Cheese
                     </Col>
@@ -339,8 +345,12 @@ const Menu = () => {
                         <Col>
                             $14.75
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                     <Row>
+                        <Col>
+                        </Col>
                         <Col>
                             1 Topping
                     </Col>
@@ -356,8 +366,12 @@ const Menu = () => {
                         <Col>
                             $16.25
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                     <Row>
+                        <Col>
+                        </Col>
                         <Col>
                             2 Topping
                     </Col>
@@ -373,8 +387,12 @@ const Menu = () => {
                         <Col>
                             $17.75
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                     <Row>
+                        <Col>
+                        </Col>
                         <Col>
                             3 Topping
                     </Col>
@@ -390,8 +408,13 @@ const Menu = () => {
                         <Col>
                             $19.25
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                     <Row>
+
+                        <Col>
+                        </Col>
                         <Col>
                             4 Topping
                     </Col>
@@ -407,12 +430,14 @@ const Menu = () => {
                         <Col>
                             $20.50
                     </Col>
+                        <Col>
+                        </Col>
                     </Row>
                 </Container>
 
             </Container>
 
-            <Container style={{ marginTop: "10vh" }} className="specialtyPizza">
+            <Container className="specialtyPizza, menuContainer">
                 <Row>
                     <Col>
                         <h1>Specialty Pizza</h1>
@@ -536,7 +561,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Fresh Salads</h1>
@@ -666,7 +691,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Harry's Oven Baked Subs</h1>
@@ -674,21 +699,14 @@ const Menu = () => {
                 </Row>
                 <Row>
                     <Col>
-                    </Col>
-                    <Col>
                         <Card>
-                            <Card.Title>
-                                Make any sub a combo!
-                        </Card.Title>
                             <Card.Body>
-                                All combos served w/ choice of french fries, chips, onion rings or small tossed salad & a drink
+                                <b>Make any sub a combo!</b> All combos served w/ choice of french fries, chips, onion rings or small tossed salad & a drink
                         </Card.Body>
                             <Card.Footer>
                                 6" Half $8.99 | 12" Whole $10.99
                         </Card.Footer>
                         </Card>
-                    </Col>
-                    <Col>
                     </Col>
                 </Row>
                 <Row>
@@ -946,7 +964,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Harry's Calzones</h1>
@@ -1019,11 +1037,18 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="wingsContainer, menuContainer">
                 <Row>
                     <Col>
                         <h1>Harry's Chicken Wings</h1>
                     </Col>
+                </Row>
+                <Row>
+
+                    <Col>
+                        <b>ASK ABOUT OUR PARTY TRAY SPECIALS!</b>
+                    </Col>
+
                 </Row>
                 <Row>
 
@@ -1033,15 +1058,7 @@ const Menu = () => {
 
                 </Row>
                 <Row>
-                    <Col>
-                    </Col>
-                    <Col>
-                        ASK ABOUT OUR PARTY TRAY SPECIALS!
-                    </Col>
-                    <Col>
-                    </Col>
-                </Row>
-                <Row>
+                    <Col></Col>
                     <Col>
                         Xtra blue cheese/ranch +$0.50
                     </Col>
@@ -1051,45 +1068,54 @@ const Menu = () => {
                     <Col>
                         Split Flavors +$1.00
                     </Col>
+                    <Col></Col>
                 </Row>
 
                 <Container>
                     <Row>
+                        <Col></Col>
                         <Col>
                             8 Wings
                         </Col>
                         <Col>
                             $9.99
                         </Col>
+                        <Col></Col>
                     </Row>
                     <Row>
+                        <Col></Col>
                         <Col>
                             10 Wings
                         </Col>
                         <Col>
                             $10.99
                         </Col>
+                        <Col></Col>
                     </Row>
                     <Row>
+                        <Col></Col>
                         <Col>
                             Baker's Dozen - 13 Wings
                         </Col>
                         <Col>
                             $12.99
                         </Col>
+                        <Col></Col>
                     </Row>
                     <Row>
+                        <Col></Col>
                         <Col>
                             20 Wings
                         </Col>
                         <Col>
                             $20.99
                         </Col>
+                        <Col></Col>
                     </Row>
                 </Container>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Harry's Dinners - $9.99 Each</h1>
@@ -1139,7 +1165,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Kids Menu</h1>
@@ -1194,7 +1220,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
-            <Container>
+            <Container className="menuContainer">
                 <Row>
                     <Col>
                         <h1>Aly & Garrett's Sweet Treats</h1>
