@@ -8,12 +8,12 @@ const Footer = () => {
     <div className="footerDiv">
       <Navbar
         className="nv"
-        fixed="bottom"
+        sticky="bottom"
         collapseOnSelect
         expand="lg"
         variant="dark"
       >
-        <Navbar.Brand href="#home">Follow Us</Navbar.Brand>
+        <Navbar.Brand href="">Follow Us</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
