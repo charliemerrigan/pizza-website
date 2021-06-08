@@ -30,6 +30,12 @@ const Header = () => {
               <NavDropdown.Item href="/menu#Fresh_Salads">
                 Fresh Salads
               </NavDropdown.Item>
+              <NavDropdown.Item href="/menu#Subs">Subs</NavDropdown.Item>
+              <NavDropdown.Item href="/menu#Calzones">
+                Calzones
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/menu#Wings">Wings</NavDropdown.Item>
+              <NavDropdown.Item href="/menu#Dinners">Dinners</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about-us">About Us</Nav.Link>
           </Nav>

@@ -12,7 +12,7 @@ const MobileMenu = () => {
           </Row>
           <Row>
             <Col>
-              <Accordion>
+              <Accordion className="accordionMobile">
                 <Card>
                   <Card.Header>
                     <Accordion.Toggle
@@ -659,15 +659,16 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="0"
                     >
-                      Make any sub a combo!
+                      Steak and Cheese
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
                     <Card.Footer>
-                      All combos served w/ choice of french fries, chips, onion
-                      rings or small tossed salad & a drink<br></br>6" Half
-                      $8.99 | 12" Whole $10.99
+                      Choice Top Round Steak and Provolone Cheese on French
+                      Bread w/ Mayonnaise, Lettuce and Tomato. Topped with
+                      Grilled Onions, Green Peppers and Mushrooms<br></br>6"
+                      Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -678,15 +679,14 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="1"
                     >
-                      Greek Salad
+                      Steak, Ham and Cheese
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="1">
                     <Card.Footer>
-                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
-                      Peppers, Pepperoncini Peppers, Feta Cheese & Black Olives
-                      <br></br>S $4.95 | L $7.99
+                      Our Steak & Cheese w/Grilled Ham added
+                      <br></br>6" Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -697,14 +697,16 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="2"
                     >
-                      Ceasar Salad
+                      Chicken Philly
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="2">
                     <Card.Footer>
-                      Lettuce, Croutons and Shredded Parmesan Cheese<br></br>S
-                      $4.95 | L $7.99
+                      Grilled Chicken on French Bread w/ Mayonnaise, Lettuce and
+                      Tomato. Topped w/ Provolone Cheese, Grilled Onions,
+                      Mushrooms and Green Peppers<br></br>S 6" Half $6.99 | 12"
+                      Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -715,15 +717,16 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="3"
                     >
-                      Tuna Salad
+                      Jerk Chicken Philly
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="3">
                     <Card.Footer>
-                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
-                      Peppers, Pepperoncini Peppers, Tuna and Black Olives
-                      <br></br>S $4.95 | L $7.99
+                      Grilled Chicken sauteed in Jerk Sauce on French Bread with
+                      Mayonnaise, Lettuce, and Tomato. Topped w/ Provolone
+                      Cheese, Grilled Onions
+                      <br></br>6" Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -734,15 +737,14 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="4"
                     >
-                      Chef Salad
+                      Chicken Parmesan
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="4">
                     <Card.Footer>
-                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
-                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
-                      Mozzarella Cheese<br></br>S $4.95 | L $7.99
+                      Breaded Chicken Breast with Marinara Sauce and Topped w/
+                      Mozzarella Cheese<br></br>6" Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -753,16 +755,14 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="5"
                     >
-                      Bacon Avocado Salad
+                      Eggplant Parmesan
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="5">
                     <Card.Footer>
-                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
-                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
-                      Mozzarella Cheese, Bacon and Avacado<br></br>S $4.95 | L
-                      $7.99
+                      Breaded Eggplant served with Marinara Sauce and Topped w/
+                      Mozzarella Cheese<br></br>6" Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -773,16 +773,14 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="6"
                     >
-                      Club Salad
+                      Meatball
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="6">
                     <Card.Footer>
-                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
-                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
-                      Mozzarella Cheese, Turkey, Ham and Bacon<br></br>S $4.95 |
-                      L $7.99
+                      Meatballs w/ Marinara Sauce and Topped with Mozzarella
+                      Cheese<br></br>6" Half $6.99 | 12" Whole $9.78
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
@@ -793,14 +791,383 @@ const MobileMenu = () => {
                       variant="link"
                       eventKey="7"
                     >
-                      Spinach Salad
+                      Vegetarian
                       <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="7">
                     <Card.Footer>
-                      Spinach , Bacon, Tomatoes, and Mozzarella Cheese<br></br>S
-                      $4.95 | L $7.99
+                      Green Peppers, Onions, Mushrooms, and Black Olives on
+                      Wheat Bread with Mayonnaise, Lettuce and Tomato. Topped w/
+                      Cheddar and Mozzarella Cheese<br></br>6" Half $6.99 | 12"
+                      Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Avocado
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Avocado, Onions, and Provolone Cheese on Wheat Bread w/
+                      Mayonnaise, Lettuce and Tomato<br></br>6" Half $6.99 | 12"
+                      Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Tuna
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Tuna, Onions and Provolone Cheese on French Bread w/
+                      Mayonnaise, Lettuce, and Tomato<br></br>6" Half $6.99 |
+                      12" Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Tofu
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Grilled Tofu on Wheat Bread w/ Mayo, Lettuce, Tomatoes,
+                      Topped w/ Provolone Cheese Grilled Onions, Mushrooms and
+                      Green Peppers<br></br>6" Half $6.99 | 12" Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Ham and Cheese
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Ham, Onions and Provolone Cheese on French Bread w/
+                      Mayonnaise, Lettuce and Tomato<br></br>6" Half $6.99 | 12"
+                      Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Turkey and Cheese
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Turkey, Onions and Provolone Cheese on French Bread w/
+                      Mayonnaise, Lettuce and Tomato<br></br>6" Half $6.99 | 12"
+                      Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Italian
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Ham and Pepperoni w/ Onions and Provolone Cheese on French
+                      Bread w/ Mayonnaise, Lettuce and Tomato<br></br>6" Half
+                      $6.99 | 12" Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Harry's Combo
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Ham and turkey w/ Onions and Mozzarella Cheese on French
+                      Bread w/ Mayonnaise, Lettuce and Tomato<br></br>6" Half
+                      $6.99 | 12" Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Harry's Club
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Our Harry’s Combo w/ bacon added<br></br>6" Half $6.99 |
+                      12" Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Harry's BLT
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Bacon, Onions and Provolone Cheese on French Bread w/
+                      Mayonnaise, Lettuce and Tomato<br></br>6" Half $6.99 | 12"
+                      Whole $9.78
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <a id="Calzones" href="/menu#Calzones" />
+            <Col className="segmentHeader">Harry's Calzones</Col>
+          </Row>
+          <Row>
+            <Col>Additional Toppings +$1.00 each</Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="0"
+                    >
+                      Cheese & 2 Toppings
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Footer>
+                      Mozzarella Cheese and your choice of any two of our
+                      toppings<br></br>$9.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      Meat Lovers
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Footer>
+                      Pepperoni, Ham, Sausage, & Mozzarella
+                      <br></br>$9.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="2"
+                    >
+                      Veggie Special
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="2">
+                    <Card.Footer>
+                      Spinach, Feta Cheese and Tomatoes<br></br>$9.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="3"
+                    >
+                      House Special
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="3">
+                    <Card.Footer>
+                      Chicken, Spinach & Mozzarella
+                      <br></br>$9.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <a id="Wings" href="/menu#Wings" />
+            <Col className="segmentHeader">Harry's Chicken Wings</Col>
+          </Row>
+          <Row className="wingDescRow">
+            <Col>
+              All wings served w/ blue cheese, celery and french fries. Flavors:
+              Hot, Mild, BBQ, Lemon Pepper & Teriyaki.
+            </Col>
+          </Row>
+          <Row>
+            <Col>ASK ABOUT OUR PARTY TRAY SPECIALS!</Col>
+          </Row>
+          <Row className="wingDescRow">
+            <Col>Xtra blue cheese/ranch +$0.50</Col>
+            <Col>All flats/drums +$1.00</Col>
+            <Col>Split Flavors +$1.00</Col>
+          </Row>
+          <Row>
+            <Col>8 Wings</Col>
+            <Col>$9.99</Col>
+          </Row>
+          <Row>
+            <Col>10 Wings</Col>
+            <Col>$10.99</Col>
+          </Row>
+          <Row>
+            <Col>Baker's Dozen</Col>
+            <Col>$12.99</Col>
+          </Row>
+          <Row>
+            <Col>20 Wings</Col>
+            <Col>$20.99</Col>
+          </Row>
+          <Row>
+            <a id="Dinners" href="menu/#Dinners"></a>
+            <Col className="segmentHeader">Harry's Dinners</Col>
+          </Row>
+          <Row>
+            <Col>All dinners are $9.99 each!</Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="0"
+                    >
+                      Chicken Parmesan
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Footer>
+                      With Spaghetti, garlic bread & drink
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      Eggplant Parmesan
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Footer>
+                      With Spaghetti, garlic bread & drink
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="2"
+                    >
+                      Spaghetti and Meatballs
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="2">
+                    <Card.Footer>With garlic bread & drink</Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="3"
+                    >
+                      Ilene's Lasagna
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="3">
+                    <Card.Footer>
+                      With garlic bread & drink (Meat or Cheese)
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
