@@ -27,8 +27,8 @@ const Header = () => {
               <NavDropdown.Item href="/menu#Specialty_Pizzas">
                 Specialty Pizzas
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="/menu#Fresh_Salads">
+                Fresh Salads
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about-us">About Us</Nav.Link>

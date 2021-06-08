@@ -1,6 +1,6 @@
 .MobileMenuContainer {
   font-family: cursive;
-  background: burlywood;
+  background: white;
 }
 
 .segmentHeader {
@@ -23,8 +23,14 @@
   font-weight: bold;
 }
 .sect {
-  border-radius: 8px;
   background: white;
   padding: 5;
   margin: 4vh auto auto;
+}
+
+.plus {
+  height: 22px;
+  width: 25px;
+  float: right;
+  padding-top: 3px;
 }

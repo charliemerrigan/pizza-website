@@ -1,5 +1,6 @@
-import { Container, Row, Col, Card, Accordion } from "react-bootstrap";
+import { Container, Row, Col, Card, Accordion, Image } from "react-bootstrap";
 import "./mobilemenu.css";
+import plusPhoto from "../../images/plusSign.png";
 const MobileMenu = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const MobileMenu = () => {
                       eventKey="0"
                     >
                       Parmesan and Butter Pretzels
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -36,6 +38,7 @@ const MobileMenu = () => {
                       eventKey="1"
                     >
                       Cinnamon Sugar Pretzels
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="1">
@@ -52,6 +55,7 @@ const MobileMenu = () => {
                       eventKey="2"
                     >
                       Nutella Pretzels
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="2">
@@ -68,6 +72,7 @@ const MobileMenu = () => {
                       eventKey="3"
                     >
                       Chicken Fingers w/ Fries
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="3">
@@ -82,6 +87,7 @@ const MobileMenu = () => {
                       eventKey="4"
                     >
                       Mozarella Cheese Sticks
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="4">
@@ -96,6 +102,7 @@ const MobileMenu = () => {
                       eventKey="5"
                     >
                       Basket of Fries
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="5">
@@ -110,6 +117,7 @@ const MobileMenu = () => {
                       eventKey="6"
                     >
                       Onion Rings
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="6">
@@ -124,6 +132,7 @@ const MobileMenu = () => {
                       eventKey="7"
                     >
                       Garlic Bread
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="7">
@@ -138,6 +147,7 @@ const MobileMenu = () => {
                       eventKey="8"
                     >
                       Cheese Bread
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="8">
@@ -152,6 +162,7 @@ const MobileMenu = () => {
                       eventKey="9"
                     >
                       Chips
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="9">
@@ -166,6 +177,7 @@ const MobileMenu = () => {
                       eventKey="10"
                     >
                       Side of Meatballs
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="10">
@@ -309,6 +321,7 @@ const MobileMenu = () => {
                       eventKey="0"
                     >
                       Mexican Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -326,6 +339,7 @@ const MobileMenu = () => {
                       eventKey="1"
                     >
                       Pesto Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="1">
@@ -343,6 +357,7 @@ const MobileMenu = () => {
                       eventKey="2"
                     >
                       Hawaiian Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="2">
@@ -360,6 +375,7 @@ const MobileMenu = () => {
                       eventKey="3"
                     >
                       White Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="3">
@@ -378,6 +394,7 @@ const MobileMenu = () => {
                       eventKey="4"
                     >
                       Meat Special Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="4">
@@ -396,6 +413,7 @@ const MobileMenu = () => {
                       eventKey="5"
                     >
                       Veggie Special Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="5">
@@ -415,6 +433,7 @@ const MobileMenu = () => {
                       eventKey="6"
                     >
                       Everything Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="6">
@@ -432,12 +451,356 @@ const MobileMenu = () => {
                       eventKey="7"
                     >
                       Margherita Pizza
+                      <Image className="plus" src={plusPhoto}></Image>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="7">
                     <Card.Footer>
                       Fresh Mozzarella, Basil and Roma Tomatoes<br></br>S $11.75
                       | M $18.25 | L $20.50 | XL $22.00
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion>
+            </Col>
+          </Row>
+        </div>
+        <div className="sect">
+          <a id="Fresh_Salads" />
+          <Row>
+            <Col className="segmentHeader">Fresh Salads</Col>
+          </Row>
+          <Row>
+            <Col>
+              Add Chicken (Grilled, Jerk or Tenders), Steak, Tuna or Avocado to
+              any salad +$2.00
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="0"
+                    >
+                      Tossed Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Footer>
+                      Lettuce, Tomato, Onions Mushrooms<br></br>S $3.00 | L
+                      $5.50
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      Greek Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Footer>
+                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
+                      Peppers, Pepperoncini Peppers, Feta Cheese & Black Olives
+                      <br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="2"
+                    >
+                      Ceasar Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="2">
+                    <Card.Footer>
+                      Lettuce, Croutons and Shredded Parmesan Cheese<br></br>S
+                      $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="3"
+                    >
+                      Tuna Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="3">
+                    <Card.Footer>
+                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
+                      Peppers, Pepperoncini Peppers, Tuna and Black Olives
+                      <br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="4"
+                    >
+                      Chef Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="4">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese<br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="5"
+                    >
+                      Bacon Avocado Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="5">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese, Bacon and Avacado<br></br>S $4.95 | L
+                      $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="6"
+                    >
+                      Club Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="6">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese, Turkey, Ham and Bacon<br></br>S $4.95 |
+                      L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Spinach Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Spinach , Bacon, Tomatoes, and Mozzarella Cheese<br></br>S
+                      $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <a id="Subs" />
+            <Col className="segmentHeader">Harry's Oven Baked Subs</Col>
+          </Row>
+          <Row>
+            <Col>
+              <Card>
+                <Card.Title>Make any sub a combo!</Card.Title>
+                <Card.Body>
+                  All combos served w/ choice of french fries, chips, onion
+                  rings or small tossed salad & a drink<br></br>
+                  6" Half $8.99 | 12" Whole $10.99
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="0"
+                    >
+                      Make any sub a combo!
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Footer>
+                      All combos served w/ choice of french fries, chips, onion
+                      rings or small tossed salad & a drink<br></br>6" Half
+                      $8.99 | 12" Whole $10.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      Greek Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Footer>
+                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
+                      Peppers, Pepperoncini Peppers, Feta Cheese & Black Olives
+                      <br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="2"
+                    >
+                      Ceasar Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="2">
+                    <Card.Footer>
+                      Lettuce, Croutons and Shredded Parmesan Cheese<br></br>S
+                      $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="3"
+                    >
+                      Tuna Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="3">
+                    <Card.Footer>
+                      Lettuce, Tomato, Onions, Mushrooms, Green Peppers, Banana
+                      Peppers, Pepperoncini Peppers, Tuna and Black Olives
+                      <br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="4"
+                    >
+                      Chef Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="4">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese<br></br>S $4.95 | L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="5"
+                    >
+                      Bacon Avocado Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="5">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese, Bacon and Avacado<br></br>S $4.95 | L
+                      $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="6"
+                    >
+                      Club Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="6">
+                    <Card.Footer>
+                      Lettuce, Tomatoes, Onions, Mushrooms, Green Pepper,
+                      Zucchini, Broccoli, Carrots, Black Olives, Cheddar and
+                      Mozzarella Cheese, Turkey, Ham and Bacon<br></br>S $4.95 |
+                      L $7.99
+                    </Card.Footer>
+                  </Accordion.Collapse>
+                </Card>
+                <Card>
+                  <Card.Header>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      variant="link"
+                      eventKey="7"
+                    >
+                      Spinach Salad
+                      <Image className="plus" src={plusPhoto}></Image>
+                    </Accordion.Toggle>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="7">
+                    <Card.Footer>
+                      Spinach , Bacon, Tomatoes, and Mozzarella Cheese<br></br>S
+                      $4.95 | L $7.99
                     </Card.Footer>
                   </Accordion.Collapse>
                 </Card>
