@@ -5,13 +5,45 @@
 
 .home {
     font-family: cursive;
+    background-color: burlywood;
 }
 
-.titleCol {
+.home img {
+    width: 40vw;
+}
+
+/* .titleCol {
     font-size: em;
 }
 .logoCol {
     font-family: 'Times New Roman', Times, serif;
     align-content: center;
     color: white
+} */
+
+.home .container {
+    margin-top: 10vh;
+    width: 80vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.home .altContainer {
+    /* background-color: black; */
+    padding-left: 100px;
+    padding-top: 100px;
+    /* color: white; */
+}
+
+.ratingContainer img {
+    margin-top: 5vh;
+    border-radius: 30px;
+}
+
+.articleLink {
+    background-color: black;
+    color: white;
+    width: 15vw;
+    border-radius: 30px;
 }
