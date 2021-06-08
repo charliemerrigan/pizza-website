@@ -1,0 +1,23 @@
+.aboutUs {
+    background-color: burlywood;
+    height: 150vh;
+}
+
+.aboutUs .container {
+    margin-top: 10vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.aboutUs .container p {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-size: large;
+}
+
+.aboutUs img {
+    width: 40vw;
+}
