@@ -1,0 +1,36 @@
+.MobileMenuContainer {
+  font-family: cursive;
+  background: white;
+}
+
+.segmentHeader {
+  font-size: 200%;
+  margin: 12vh auto 2vh;
+}
+
+.itemDescription {
+  font-size: small;
+}
+.pizzaRow {
+  font-size: 83%;
+}
+
+.toppings {
+  font-size: 83%;
+}
+
+.pizzaHeaders {
+  font-weight: bold;
+}
+.sect {
+  background: white;
+  padding: 5;
+  margin: 4vh auto auto;
+}
+
+.plus {
+  height: 22px;
+  width: 25px;
+  float: right;
+  padding-top: 3px;
+}

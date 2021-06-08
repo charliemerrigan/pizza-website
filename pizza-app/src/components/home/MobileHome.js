@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./mobilehome.css";
 
 const Header = () => {

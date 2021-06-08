@@ -1,6 +1,5 @@
 import pizzaPhoto from "../../HarrysLogo.jpeg";
-import { Container, Row, Col, Image, Nav } from "react-bootstrap";
-import Footer from "../Footer";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./homepage.css";
 import sub from "../../images/HarrysPizzaSub.jpeg";
 
