@@ -1,6 +1,6 @@
 import { Card, CardDeck, Col, Container, Image, Row } from 'react-bootstrap'
 import appImg from '../../images/HarrysPizzaApp.png'
-import pizzaImg from '../../images/HarrysPizzaPizza.jpeg'
+import pizzaImg from '../../images/pizzapng.png'
 import './menu.css'
 const Menu = () => {
     return (
@@ -165,277 +165,278 @@ const Menu = () => {
                     </Col>
                 </Row>
             </Container>
-
-            <Container className="menuContainer">
-                <Row className="justify-content-left">
-                    <Col>
-                        <h1>Regular Pizza</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        By The Slice
-                    </Col>
-                    <Col>
-                        $2.50
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        Additional Topping
-                    </Col>
-                    <Col>
-                        $0.50
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        *Topping
-                    </Col>
-                    <Col>
-                        $1.00
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        <h2>Toppings</h2>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        Anchovies
-                    </Col>
-                    <Col>
-                        Arichoke Hearts
-                    </Col>
-                    <Col>
-                        Banana Peppers
-                    </Col>
-                    <Col>
-                        Bacon
-                    </Col>
-                    <Col>
-                        Black Olives
-                    </Col>
-                    <Col>
-                        Broccoli
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        *Chicken
-                    </Col>
-                    <Col>
-                        *Buffalo Chicken
-                    </Col>
-                    <Col>
-                        Green Olives
-                    </Col>
-                    <Col>
-                        Feta Cheese
-                    </Col>
-                    <Col>
-                        Garlic
-                    </Col>
-                    <Col>
-                        Green Peppers
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        Ground Beef
-                    </Col>
-                    <Col>
-                        Ham
-                    </Col>
-                    <Col>
-                        Italian Sausage
-                    </Col>
-                    <Col>
-                        Jalapeno's
-                    </Col>
-                    <Col>
-                        *Jerk Chicken
-                    </Col>
-                    <Col>
-                        *BBQ Chicken
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        *Meatballs
-                    </Col>
-                    <Col>
-                        Mushrooms
-                    </Col>
-                    <Col>
-                        Onions
-                    </Col>
-                    <Col>
-                        Pepperoni
-                    </Col>
-                    <Col>
-                        Pepperoncini
-                    </Col>
-                    <Col>
-                        *Pesto
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        Pineapple
-                    </Col>
-                    <Col>
-                        Spinach
-                    </Col>
-                    <Col>
-                        *Sun-Dried Tomatoes
-                    </Col>
-                    <Col>
-                        Tomatoes
-                    </Col>
-                    <Col>
-                        Zucchini
-                    </Col>
-                    <Col>
-                    </Col>
-                </Row>
-
-                <Container className="pizzaGrid, menuContainer">
-                    <Row className="pizzaGridHeader">
+            <div style={{ backgroundImage: pizzaImg, zIndex: 2 }}>
+                {/* <Image src={pizzaImg} style={{ zIndex: 0 }}></Image> */}
+                <Container className="menuContainer" style={{ zIndex: 1 }}>
+                    <Row className="justify-content-left">
                         <Col>
-                        </Col>
-                        <Col>
-                            Pizza
-                    </Col>
-                        <Col>
-                            Small
-                    </Col>
-                        <Col>
-                            Medium
-                    </Col>
-                        <Col>
-                            Large
-                    </Col>
-                        <Col>
-                            Extra Large
-                    </Col>
-                        <Col>
+                            <h1>Regular Pizza</h1>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                        </Col>
-                        <Col>
-                            Cheese
+                            By The Slice
                     </Col>
                         <Col>
-                            $7.50
+                            $2.50
                     </Col>
-                        <Col>
-                            $10.99
-                    </Col>
-                        <Col>
-                            $12.99
-                    </Col>
-                        <Col>
-                            $14.75
-                    </Col>
-                        <Col>
-                        </Col>
                     </Row>
                     <Row>
                         <Col>
-                        </Col>
-                        <Col>
-                            1 Topping
+                            Additional Topping
                     </Col>
                         <Col>
-                            $8.25
+                            $0.50
                     </Col>
-                        <Col>
-                            $12.25
-                    </Col>
-                        <Col>
-                            $14.50
-                    </Col>
-                        <Col>
-                            $16.25
-                    </Col>
-                        <Col>
-                        </Col>
                     </Row>
                     <Row>
                         <Col>
-                        </Col>
-                        <Col>
-                            2 Topping
+                            *Topping
                     </Col>
                         <Col>
-                            $9.79
+                            $1.00
                     </Col>
-                        <Col>
-                            $13.50
-                    </Col>
-                        <Col>
-                            $16.00
-                    </Col>
-                        <Col>
-                            $17.75
-                    </Col>
-                        <Col>
-                        </Col>
                     </Row>
-                    <Row>
-                        <Col>
-                        </Col>
-                        <Col>
-                            3 Topping
-                    </Col>
-                        <Col>
-                            $10.59
-                    </Col>
-                        <Col>
-                            $14.75
-                    </Col>
-                        <Col>
-                            $17.50
-                    </Col>
-                        <Col>
-                            $19.25
-                    </Col>
-                        <Col>
-                        </Col>
-                    </Row>
-                    <Row>
 
+                    <Row>
                         <Col>
+                            <h2>Toppings</h2>
                         </Col>
+                    </Row>
+                    <Row>
                         <Col>
-                            4 Topping
+                            Anchovies
                     </Col>
                         <Col>
-                            $10.99
+                            Arichoke Hearts
                     </Col>
                         <Col>
-                            $16.00
+                            Banana Peppers
                     </Col>
                         <Col>
-                            $19.00
+                            Bacon
                     </Col>
                         <Col>
-                            $20.50
+                            Black Olives
+                    </Col>
+                        <Col>
+                            Broccoli
+                    </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            *Chicken
+                    </Col>
+                        <Col>
+                            *Buffalo Chicken
+                    </Col>
+                        <Col>
+                            Green Olives
+                    </Col>
+                        <Col>
+                            Feta Cheese
+                    </Col>
+                        <Col>
+                            Garlic
+                    </Col>
+                        <Col>
+                            Green Peppers
+                    </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
+                            Ground Beef
+                    </Col>
+                        <Col>
+                            Ham
+                    </Col>
+                        <Col>
+                            Italian Sausage
+                    </Col>
+                        <Col>
+                            Jalapeno's
+                    </Col>
+                        <Col>
+                            *Jerk Chicken
+                    </Col>
+                        <Col>
+                            *BBQ Chicken
+                    </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
+                            *Meatballs
+                    </Col>
+                        <Col>
+                            Mushrooms
+                    </Col>
+                        <Col>
+                            Onions
+                    </Col>
+                        <Col>
+                            Pepperoni
+                    </Col>
+                        <Col>
+                            Pepperoncini
+                    </Col>
+                        <Col>
+                            *Pesto
+                    </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
+                            Pineapple
+                    </Col>
+                        <Col>
+                            Spinach
+                    </Col>
+                        <Col>
+                            *Sun-Dried Tomatoes
+                    </Col>
+                        <Col>
+                            Tomatoes
+                    </Col>
+                        <Col>
+                            Zucchini
                     </Col>
                         <Col>
                         </Col>
                     </Row>
+
+                    <Container className="pizzaGrid, menuContainer" style={{ zIndex: 1 }}>
+                        <Row className="pizzaGridHeader">
+                            <Col>
+                            </Col>
+                            <Col>
+                                Pizza
+                    </Col>
+                            <Col>
+                                Small
+                    </Col>
+                            <Col>
+                                Medium
+                    </Col>
+                            <Col>
+                                Large
+                    </Col>
+                            <Col>
+                                Extra Large
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                            </Col>
+                            <Col>
+                                Cheese
+                    </Col>
+                            <Col>
+                                $7.50
+                    </Col>
+                            <Col>
+                                $10.99
+                    </Col>
+                            <Col>
+                                $12.99
+                    </Col>
+                            <Col>
+                                $14.75
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                            </Col>
+                            <Col>
+                                1 Topping
+                    </Col>
+                            <Col>
+                                $8.25
+                    </Col>
+                            <Col>
+                                $12.25
+                    </Col>
+                            <Col>
+                                $14.50
+                    </Col>
+                            <Col>
+                                $16.25
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                            </Col>
+                            <Col>
+                                2 Topping
+                    </Col>
+                            <Col>
+                                $9.79
+                    </Col>
+                            <Col>
+                                $13.50
+                    </Col>
+                            <Col>
+                                $16.00
+                    </Col>
+                            <Col>
+                                $17.75
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                            </Col>
+                            <Col>
+                                3 Topping
+                    </Col>
+                            <Col>
+                                $10.59
+                    </Col>
+                            <Col>
+                                $14.75
+                    </Col>
+                            <Col>
+                                $17.50
+                    </Col>
+                            <Col>
+                                $19.25
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                        <Row>
+
+                            <Col>
+                            </Col>
+                            <Col>
+                                4 Topping
+                    </Col>
+                            <Col>
+                                $10.99
+                    </Col>
+                            <Col>
+                                $16.00
+                    </Col>
+                            <Col>
+                                $19.00
+                    </Col>
+                            <Col>
+                                $20.50
+                    </Col>
+                            <Col>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Container>
-
-            </Container>
+            </div>
 
             <Container className="specialtyPizza, menuContainer">
                 <Row>

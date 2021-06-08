@@ -30,8 +30,20 @@
 }
 
 .home .altContainer {
-    background-color: black;
+    /* background-color: black; */
     padding-left: 100px;
     padding-top: 100px;
+    /* color: white; */
+}
+
+.ratingContainer img {
+    margin-top: 5vh;
+    border-radius: 30px;
+}
+
+.articleLink {
+    background-color: black;
     color: white;
+    width: 15vw;
+    border-radius: 30px;
 }
