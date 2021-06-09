@@ -4,6 +4,7 @@ import igLogo from "../images/IGLogo.png";
 import { Navbar, Nav } from "react-bootstrap";
 import "./footer.css";
 const Footer = () => {
+
   return (
     <Navbar
       className="nv"
