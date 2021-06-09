@@ -30,7 +30,17 @@
 
 .plus {
   height: 22px;
-  width: 25px;
+  width: 23px;
   float: right;
   padding-top: 3px;
+}
+
+.accordionMobile {
+  background-color: white;
+}
+
+.wingDescRow {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: x-small;
 }

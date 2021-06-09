@@ -1,0 +1,9 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.segmentHeader {
+  font-size: 200%;
+  margin: 12vh auto 2vh;
+}
