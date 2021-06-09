@@ -1,14 +1,9 @@
-.footerDiv img {
-    width: 50px;
-    height: 50px;
-}
-
 .fLogo {
-    padding-top: 3px;
-    width: 45px;
-    height: 45px;
+  padding-top: 3px;
+  width: 45px;
+  height: 45px;
 }
 
 .footerDiv {
-    color: white;
+  color: white;
 }

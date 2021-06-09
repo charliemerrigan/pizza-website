@@ -7,19 +7,20 @@ import MobileMenu from "./components/menu/MobileMenu";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import AboutUs from "./components/about/AboutUs";
+import MobileAboutUs from "./components/about/MobileAboutUs";
 
 function App() {
   const homepageComponent = window.innerWidth >= 650 ? Homepage : MobileHome;
   const menuComponent = window.innerWidth >= 650 ? Menu : MobileMenu;
+  const aboutUsComponent = window.innerWidth >= 650 ? AboutUs : MobileAboutUs;
   console.log(homepageComponent);
   return (
     <Router>
       <div className="App">
         <Header></Header>
         <Route path="/home" exact component={homepageComponent}></Route>
-
-        <Route path="/menu" exact component={Menu}></Route>
-        <Route path="/about-us" exact component={AboutUs}></Route>
+        <Route path="/menu" exact component={menuComponent}></Route>
+        <Route path="/about-us" exact component={aboutUsComponent}></Route>
         <Footer></Footer>
       </div>
     </Router>
