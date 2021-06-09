@@ -43,3 +43,8 @@
 .wingsContainer .row {
     padding-top : 10px;
 }
+
+.spacer {
+    background-color: burlywood;
+    height: 10vh;
+}

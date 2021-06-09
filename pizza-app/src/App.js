@@ -18,7 +18,7 @@ function App() {
         <Header></Header>
         <Route path="/home" exact component={homepageComponent}></Route>
 
-        <Route path="/menu" exact component={Menu}></Route>
+        <Route path="/menu" exact component={menuComponent}></Route>
         <Route path="/about-us" exact component={AboutUs}></Route>
         <Footer></Footer>
       </div>

@@ -6,8 +6,12 @@ import './menu.css'
 const Menu = () => {
     return (
         <div className="menuBackground">
+            <div className="spacer"></div>
+
+            <a id="Appetizers_And_Extras" />
             <Container className="menuContainer">
                 <Row>
+
                     <Col>
                         <h1>Appetizers and Extras</h1>
                     </Col>
@@ -166,10 +170,13 @@ const Menu = () => {
                     </Col>
                 </Row>
             </Container>
+
+            <a id="Regular_Pizza" />
             <div style={{ backgroundImage: pizzaImg, zIndex: 2 }}>
                 {/* <Image src={pizzaImg} style={{ zIndex: 0 }}></Image> */}
                 <Container className="menuContainer" style={{ zIndex: 1 }}>
                     <Row className="justify-content-left">
+
                         <Col>
                             <h1>Regular Pizza</h1>
                         </Col>
@@ -439,6 +446,7 @@ const Menu = () => {
                 </Container>
             </div>
 
+            <a id="Specialty_Pizzas" />
             <Container className="specialtyPizza, menuContainer">
                 <Row>
                     <Col>
@@ -563,6 +571,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
+            <a id="Fresh_Salads" />
             <Container className="menuContainer">
                 <Row>
                     <Col>

@@ -1,6 +1,6 @@
 import { Navbar, Nav, Image, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../images/AidanPizzaMan.png";
+import logo from "../images/AidanPizzaManWhite.png";
 
 const Header = () => {
   return (
