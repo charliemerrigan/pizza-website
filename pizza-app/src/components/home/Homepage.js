@@ -6,11 +6,14 @@ import sub from "../../images/HarrysPizzaSub.jpeg";
 const Homepage = () => {
   return (
     <div className="home">
+      <div className="spacer"></div>
+
+      <a id="Appetizers_And_Extras" />
       <Container>
         <Row>
-          <Col>
+          {/* <Col>
             <Image src={pizzaPhoto}></Image>
-          </Col>
+          </Col> */}
           <Col>
             <h1 className="mainTitle">Harry's Pizza and Subs</h1>
           </Col>
@@ -36,7 +39,7 @@ const Homepage = () => {
           </Col>
           <Col>
 
-            <h1 className="mainTitle">Rated the #2 Delectable Atlanta Buget Restaruant by Atlanta Eats! </h1>
+            <h1 className="ratingTitle">Rated the #2 Delectable Atlanta Buget Restaruant by Atlanta Eats! </h1>
 
             <Nav.Link href="https://www.atlantaeats.com/blog/11-delectable-atlanta-budget-eats/?fbclid=IwAR2vkI2fPjzB6DK_LBCYkH0fp31qDlSuCkhq3AOHk_umWmU3Tx0ekSN_zD0">
               <p className="articleLink">Check Out The Full Article!</p>

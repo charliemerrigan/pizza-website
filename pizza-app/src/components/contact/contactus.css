@@ -1,0 +1,10 @@
+.contactUs {
+    background-image: url('../../images/brickbackground1.jpeg');
+    height: 150vh;
+}
+
+.contactUs iframe {
+    margin-top: 20vh;
+    width: 80vh;
+    height: 80vh;
+}

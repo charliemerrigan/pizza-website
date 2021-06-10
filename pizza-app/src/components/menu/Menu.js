@@ -314,7 +314,7 @@ const Menu = () => {
                         </Col>
                     </Row>
 
-                    <Container className="pizzaGrid, menuContainer" style={{ zIndex: 1 }}>
+                    <Container className="pizzaGrid" style={{ zIndex: 1 }}>
                         <Row className="pizzaGridHeader">
                             <Col>
                             </Col>
@@ -702,6 +702,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
+            <a id="Subs" />
             <Container className="menuContainer">
                 <Row>
                     <Col>
@@ -975,6 +976,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
+            <a id="Calzones" href="/menu#Calzones" />
             <Container className="menuContainer">
                 <Row>
                     <Col>
@@ -1048,6 +1050,7 @@ const Menu = () => {
                 </Row>
             </Container>
 
+            <a id="Wings" href="/menu#Wings" />
             <Container className="wingsContainer, menuContainer">
                 <Row>
                     <Col>
@@ -1126,6 +1129,7 @@ const Menu = () => {
                 </Container>
             </Container>
 
+            <a id="Dinners" href="menu/#Dinners"></a>
             <Container className="menuContainer">
                 <Row>
                     <Col>

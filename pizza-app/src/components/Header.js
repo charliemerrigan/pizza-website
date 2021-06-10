@@ -35,6 +35,7 @@ const Header = () => {
             <NavDropdown.Item href="/menu#Dinners">Dinners</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/about-us">About Us</Nav.Link>
+          <Nav.Link href="/contact-us">Contact Us</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       {/* <Navbar.Text>(770) 955-4413</Navbar.Text> */}

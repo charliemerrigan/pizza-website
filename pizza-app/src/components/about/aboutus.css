@@ -1,5 +1,5 @@
 .aboutUs {
-    background-color: burlywood;
+    background-image: url('../../images/brickbackground1.jpeg');
     height: 150vh;
 }
 
@@ -10,6 +10,7 @@
     border-radius: 30px;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    box-shadow: 10px 10px 8px 5px #888888;
 }
 
 .aboutUs .container p {

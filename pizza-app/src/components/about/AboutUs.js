@@ -6,6 +6,9 @@ import familyPic from '../../images/HarrysPizzaFamily.jpeg'
 const AboutUs = () => {
     return (
         <div className="aboutUs">
+            <div className="spacer">
+
+            </div>
             <Container>
                 <Row>
                     <Col>
