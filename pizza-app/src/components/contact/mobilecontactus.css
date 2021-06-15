@@ -1,0 +1,22 @@
+.contactUs {
+  background-image: url("../../images/brickbackground1.jpeg");
+  height: 150vh;
+}
+
+.contactUs .container {
+  margin-top: 8vh;
+  width: 80vw;
+  background-color: white;
+  border-radius: 30px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  box-shadow: 10px 10px 8px 5px #888888;
+  font-size: smaller;
+}
+.bpic {
+  margin-top: 3vh;
+}
+.anch {
+  display: inline;
+  clear: none;
+}

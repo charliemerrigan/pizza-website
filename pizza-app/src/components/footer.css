@@ -3,6 +3,11 @@
   width: 45px;
   height: 45px;
 }
+.iLogo {
+  padding-top: 3px;
+  width: 60px;
+  height: 60px;
+}
 
 .footerDiv {
   color: white;

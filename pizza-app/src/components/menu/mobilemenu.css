@@ -5,7 +5,6 @@
 
 .segmentHeader {
   font-size: 200%;
-  margin: 12vh auto 2vh;
 }
 
 .itemDescription {
@@ -24,8 +23,8 @@
 }
 .sect {
   background: white;
-  padding: 5;
-  margin: 4vh auto auto;
+  margin: auto;
+  padding-top: 8vh;
 }
 
 .plus {

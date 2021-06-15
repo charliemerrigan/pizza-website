@@ -33,12 +33,14 @@ const Header = () => {
             <NavDropdown.Item href="/menu#Calzones">Calzones</NavDropdown.Item>
             <NavDropdown.Item href="/menu#Wings">Wings</NavDropdown.Item>
             <NavDropdown.Item href="/menu#Dinners">Dinners</NavDropdown.Item>
+            <NavDropdown.Item href="/menu#Kids_Menu">
+              Kid's Menu
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/about-us">About Us</Nav.Link>
-          <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+          <Nav.Link href="/find-us">Find Us</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      {/* <Navbar.Text>(770) 955-4413</Navbar.Text> */}
     </Navbar>
   );
 };

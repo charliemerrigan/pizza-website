@@ -4,7 +4,6 @@ import igLogo from "../images/IGLogo.png";
 import { Navbar, Nav } from "react-bootstrap";
 import "./footer.css";
 const Footer = () => {
-
   return (
     <Navbar
       className="nv"
@@ -27,7 +26,7 @@ const Footer = () => {
             style={{ padding: "0 10px 0" }}
             href="https://www.instagram.com/harryspizzaandsubs/"
           >
-            <Image className="fLogo" src={igLogo}></Image>
+            <Image className="iLogo" src={igLogo}></Image>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
